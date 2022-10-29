@@ -1,4 +1,8 @@
 // медіазапити для мобільної, планшетної, десктопної та адаптивних версій
+// використання::after
+// @include desktop {
+//  padding-top: 94px;
+//}
 
 @mixin mobile () {
     @media screen and (max-width: $tablet) {
