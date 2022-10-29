@@ -1,0 +1,154 @@
+.section--footer {
+@include section;
+padding-top: 0px;
+padding-bottom: 0px;
+text-align: start;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.container--footer {
+@include container;
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+.footer-wrap{
+display: flex;
+flex-direction: row;
+margin-bottom: 80px;
+}
+
+.footer-nav-list {
+display: inline-flex;
+margin-right: auto;
+margin-left: 148px;
+align-items: center;
+}
+.logo__container--footer {
+display: flex;
+align-items: center;
+}
+
+.nav-item {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.14;
+color: #2C2C2C;
+&:hover{
+text-decoration-line: underline;
+color: #BBF330;
+}
+}
+
+.footer-nav-item:nth-child(-n + 4) {
+margin-right: 28px;
+}
+
+.footer-nav-item:hover {
+text-decoration-line: underline;
+color: #BBF330;
+}
+
+
+.footer-sub {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+}
+
+.footer-policy {
+display: flex;
+justify-content: space-between;
+
+}
+.nav-footer {
+display: flex;
+}
+
+.list-policy {
+display: flex;
+}
+
+.header-sub{
+Font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: #2C2C2C;
+margin-bottom: 15px;
+}
+
+.subscribe-input {
+    background: none;
+    border: 0.854167px solid #FFE550;
+    border-radius: 30px;
+    padding: 12px 57px 12px 11px;
+    color: #505050;
+}
+
+.but-sub {
+  background: #FFFFFF;
+border: 0.854167px solid #7EB101;
+    border-radius: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #2C2C2C;
+    padding: 11px 22px;
+    margin-left: 13px;
+
+    &:hover {
+    background: #FFFFFF;
+border: 0.854167px solid #597D00;
+border-radius: 30px;
+    }
+}
+
+.footer-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #2C2C2C;
+margin-top: 12px;
+}
+
+
+
+.footer-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+color: #2C2C2C;
+}
+
+
+.policy-link{
+color: #7eb101;
+text-decoration: underline;
+}
+
+.list-policy-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+text-decoration-line: underline;
+color: #7EB101;
+}
+
+.list-policy-item:nth-child(-n + 2){
+margin-right: 20px;
+}
