@@ -1,0 +1,25 @@
+// медіазапити для мобільної, планшетної, десктопної та адаптивних версій
+
+@mixin mobile () {
+    @media screen and (max-width: $tablet) {
+      @content;
+    }
+  }
+  
+@mixin tablet () {
+    @media screen and (min-width: $tablet) and (max-width: $desktop) {
+      @content;
+    }
+  }
+ 
+@mixin desktop () {
+    @media screen and (min-width: $desktop) {
+      @content;
+    }
+  }
+
+@mixin adaptive () {
+    @media screen and (min-width: $tablet) {
+    @content;
+    }
+}
