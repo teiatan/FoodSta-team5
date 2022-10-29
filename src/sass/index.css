@@ -1,33 +1,54 @@
-.subscribe-text {
-  font-family: "Roboto";
+body {
+  color: #2C2C2C;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color: #2C2C2C;
-  margin-bottom: 24px;
+  background-color: #F5F5F5;
+  min-width: 320px;
 }
 
-.subscribe-input {
-  background: none;
-  border: 0.854167px solid #FFE550;
-  border-radius: 30px;
-  padding: 12px 57px 12px 11px;
-  color: #505050;
+button {
+  cursor: pointer;
+  font-family: inherit;
 }
 
-.button-sub {
-  border: #BBF330;
-  background: #BBF330;
-  border-radius: 30px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 150%;
-  color: #2C2C2C;
-  padding: 11px 22px;
+ul {
+  list-style: none;
 }
-.button-sub:hover {
-  background: #B5FF00;
-}/*# sourceMappingURL=index.css.map */
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  font-size: inherit;
+}
+
+img {
+  display: inline-block;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.main-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
