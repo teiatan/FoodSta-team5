@@ -1,2 +1,20 @@
-@import './common';
-@import './example';
+@import './utils/variables';
+@import './utils/breakpoints';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './utils/general-styles';
+
+@import './common-elements/logo';
+@import './common-elements/nav';
+@import './common-elements/order-button';
+@import './common-elements/subscribe-form';
+
+@import './components/header';
+@import './components/hero';
+@import './components/offerings';
+@import './components/favorites';
+@import './components/subscribe';
+@import './components/footer-container';
+@import './components/footer-up';
+@import './components/footer-down';
+@import './components/modal';
