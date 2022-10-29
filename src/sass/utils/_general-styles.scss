@@ -1,0 +1,55 @@
+body {
+    color: #2C2C2C;
+    font-family: Roboto, sans-serif;
+    font-size:14px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #F5F5F5;
+    min-width: 320px;
+}
+
+
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+    font-size: inherit;
+}
+
+img {
+    display: inline-block;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+ 
+.main-container {
+    padding-left: 20px;
+    padding-right: 20px; 
+
+    @include adaptive {
+        padding-left: 32px;
+        padding-right: 32px;
+        }
+
+    @include desktop {
+        padding-left: 16px;
+        padding-right: 16px;
+        }
+}
