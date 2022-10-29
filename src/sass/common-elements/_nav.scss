@@ -1,0 +1,34 @@
+
+.container-header {
+@include container;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.header__nav{
+display: flex;
+justify-content: end;
+margin-left: auto;
+
+}
+
+.header__list{
+display: flex;
+align-items: center;
+
+}
+
+.header__link:nth-child(-n + 4) {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.14;
+color: #2C2C2C;
+margin-right: 18px;
+
+&:hover{
+text-decoration-line: underline;
+color: #BBF330;
+}
+}
