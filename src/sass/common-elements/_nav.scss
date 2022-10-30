@@ -4,20 +4,20 @@ padding-top: 15px;
 padding-bottom: 15px;
 }
 
-.header__nav{
+.nav{
 display: flex;
 justify-content: end;
 margin-left: auto;
 
 }
 
-.header__list{
+.nav__list{
 display: flex;
 align-items: center;
 
 }
 
-.header__link:nth-child(-n + 4) {
+.nav__link:nth-child(-n + 4) {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
