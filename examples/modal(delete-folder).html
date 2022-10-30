@@ -1,0 +1,48 @@
+<!-- Modal -->
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal"
+				><button type="button" class="close-button" data-modal-close>
+					<svg width="18px" height="18px">
+						<use href="./images/symbol-defs.svg#icon-close"></use>
+					</svg>
+				</button>
+				<p class="modal__header">Залиште свої дані, ми вам передзвонимо</p>
+				<form class="modal-form">
+					<label class="modal-form__field">
+						<input class="modal-form__user-data" type="text" name="name" />
+						<span class="modal-form__field-title">Ім'я</span>
+						<svg width="18px" height="18px" class="modal-form__icon">
+							<use href="./images/symbol-defs.svg#icon-person"></use>
+						</svg>
+					</label>
+					<label class="modal-form__field">
+						<input class="modal-form__user-data" type="tel" name="phone" />
+						<span class="modal-form__field-title">Телефон</span>
+						<svg width="18px" height="18px" class="modal-form__icon"">
+							<use href="./images/symbol-defs.svg#icon-phone"></use>
+						</svg>
+					</label>
+					<label class="modal-form__field">
+						<input class="modal-form__user-data" type="email" name="email" />
+						<span class="modal-form__field-title">Пошта</span>
+						<svg width="18px" height="18px" class="modal-form__icon"">
+							<use href="./images/symbol-defs.svg#icon-email"></use>
+						</svg>
+					</label>
+					<label class="modal-form__field">
+						<textarea class="modal-form__comment" name="comment" placeholder="Введіть текст"></textarea>
+						<span class="modal-form__field-title">Коментар</span>
+					</label>
+					<div class="agreement">
+						<label class="agreement__field">
+							<input type="checkbox" name="agreement" value="agree" class="agreement__checkbox" />
+							<svg width="16px" height="15px" class="agreement__icon">
+								<use href="./images/symbol-defs.svg#icon-check"></use>
+							</svg>
+							Погоджуюся з розсилкою та приймаю<a href="" class="agreement__link">Умови договору</a>
+						</label>
+					</div>
+					<button class="hero-sect__button mailing__button modal-form__button" type="submit">Відправити</button>
+				</form>
+			</div>
+		</div>
