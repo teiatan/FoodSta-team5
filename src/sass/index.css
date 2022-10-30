@@ -2,6 +2,7 @@ body {
   color: #2C2C2C;
   font-family: Roboto, sans-serif;
   font-size: 14px;
+  line-height: 150%;
   font-style: normal;
   font-weight: 400;
   background-color: #F5F5F5;
@@ -52,4 +53,40 @@ img {
     padding-left: 16px;
     padding-right: 16px;
   }
+}
+
+.subscribe-form {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2C2C2C;
+}
+.subscribe-form__container {
+  display: flex;
+  justify-content: flex-start;
+}
+.subscribe-form__input {
+  box-sizing: border-box;
+  height: 42px;
+  width: 279px;
+  font-size: 12px;
+  border: 0.854167px solid #FFE550;
+  border-radius: 30px;
+  padding: 12px;
+  margin-right: 22px;
+  color: #505050;
+}
+.subscribe-form__button {
+  width: 103px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 13px;
+  border: 0.854167px solid #7EB101;
+  border-radius: 30px;
+  padding: 11px 22px;
+}
+.subscribe-form__button:hover {
+  background: #B5FF00;
 }/*# sourceMappingURL=index.css.map */
