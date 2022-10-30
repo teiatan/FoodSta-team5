@@ -1,0 +1,42 @@
+.subscribe-form {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2C2C2C;
+
+    &__container {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__input {
+        box-sizing: border-box;
+        height: 42px;
+        width: 279px;
+        font-size: 12px;
+        border: 0.854167px solid #FFE550;
+        border-radius: 30px;
+        padding: 12px;
+        margin-right: 22px;
+        color: #505050;
+    }
+    
+    &__button {
+
+        width: 103px;
+        height: 42px;
+        font-weight: 500;
+        font-size: 13px;
+        border: 0.854167px solid #7EB101;
+        border-radius: 30px;
+        padding: 11px 22px;
+        
+        
+        
+        &:hover{
+        background: #B5FF00;
+        }
+    }
+}
