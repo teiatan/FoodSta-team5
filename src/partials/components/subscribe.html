@@ -1,1 +1,53 @@
 <!-- <include src="../common-elements/subscribe-form.html"></include> -->
+<section id="subscribe" class="subscribe">
+  <div class="container">
+    <div class="subscribe__image img">
+      <picture>
+        <source
+          srcset="
+            /src/images/banan-phone.jpg    1x,
+            /src/images/banan-phone@2x.jpg 2x
+          "
+          media="(max-width: 677px)"
+        />
+        <source
+          srcset="
+            /src/images/banan-tablet.jpg    1x,
+            /src/images/banan-tablet@2x.jpg 2x
+          "
+          media="(min-width: 678px)"
+        />
+        <source
+          srcset="
+            /src/images/banan-desc.jpg    1x,
+            /src/images/banan-desc@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+
+        <img src="/src/images/banan-desc.jpg" alt="банан" />
+      </picture>
+    </div>
+    <div class="subscribe-discription">
+      <h2 class="subscribe__title">Subscribe To Get Special Offers</h2>
+      <p class="subscribe__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        varius enim in eros elementum tristique.
+      </p>
+      <form class="subscribe-form">
+        <div class="subscribe-form__container">
+          <input
+            type="email"
+            name="mail"
+            placeholder="Enter your email"
+            id="mail"
+            class="subscribe-form__input"
+          />
+          <button type="submit" class="subscribe-form__button">
+            Subscribe
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
