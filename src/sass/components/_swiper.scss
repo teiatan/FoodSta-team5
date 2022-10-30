@@ -28,7 +28,7 @@
     width: 320px;
     height: 320px;
     border-radius: 50%;
-    border: 14px solid #FFE550;
+    border: 14px solid $second-background-color;
   }
 
   @media screen and (min-width: 1280px) {
@@ -91,11 +91,11 @@
   .swiper-button-prev:focus &,
   .swiper-button-next:focus &,
   .swiper-button-next:hover & {
-    fill: #7EB101;
+    fill: $accent-color-dark;
   }
 
   .swiper-button-next:active &,
   .swiper-button-prev:active & {
-    fill: #2C2C2C;
+    fill: $primary-text-color;
   }
 }
