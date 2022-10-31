@@ -23,12 +23,59 @@
         position: absolute;
         bottom: 0;
         left: 0;
+
+        @include adaptive {
+            display: none;
+        }
     }
 
     &__phone-orange-img {
         position: absolute;
         bottom: 0;
         right: 0;
+
+        @include adaptive {
+            display: none;
+        }
+    }
+
+
+    &__sub {
+        @extend %section;
+        padding-top: 5px;
+    }
+
+
+    & .subscribe-form {
+
+        &__container {
+            @include mobile {
+                flex-direction: column;
+                align-items: flex-end;
+            }
+        }
+
+        &__input {
+
+            @include mobile {
+                margin: 12px 0 20px 0;
+            }
+        }
+
+        &__button {
+            background-color: #FFFFFF;
+        }
+        
+        &__policy-start {
+            font-size: 10px;
+            line-height: 1,2;
+            margin-top: 20px;
+        }
+
+        &__policy-end {
+            color: $accent-color-dark;
+            text-decoration: underline;
+        }
     }
 
 }
@@ -48,4 +95,31 @@
         margin-bottom: 20px;
 
     }
+}
+
+
+.address {
+    @extend %section;
+    min-height: 144px;
+
+    &__list {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        line-height: 1,2;
+        font-style: normal;
+        text-decoration: underline;
+        margin: 60 0 40 0;
+    }
+
+    &__link {
+        color: $accent-color-dark;
+    }
+
+    &__sig {
+        font-style: normal;
+        text-align: center;
+    }
+    
 }
