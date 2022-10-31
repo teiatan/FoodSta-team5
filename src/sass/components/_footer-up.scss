@@ -1,9 +1,11 @@
 .footer {
     //@extend %section;
-    
+    @include adaptive {
+        position: relative;
+    }
 
     &__first-container {
-        position: relative;
+        
         box-sizing: border-box;
         padding: 60px 20px 0 20px;
         display: flex;
@@ -11,6 +13,7 @@
 
         @include mobile {
             min-height: 259px;
+            position: relative;
         }
 
 
@@ -52,6 +55,29 @@
             display: none;
         }
     }
+
+    &__tablet-img {
+        display: none;
+        @include tablet {
+            display: block;
+            position: fixed;
+            bottom: 0;
+            z-index: -1;
+            width: 768px;
+        }
+    }
+    
+    &__desktop-img {
+        display: none;
+        @include desktop {
+            display: block;
+            position: fixed;
+            bottom: 0;
+            z-index: -1;
+            width: 1280px;
+        }
+    }
+
 
 
     &__sub {
@@ -157,13 +183,17 @@
     min-height: 144px;
 
     @include tablet {
-        min-height: 55px;
+        min-height: 114px;
+        margin-top: 50px;
     }
 
-    @include tablet {
-        min-height: 41px;
+    
+    &__container {
+        @include tablet {
+            display: flex;
+            align-items: center;
+        }
     }
-
     
 
     &__list {
@@ -175,6 +205,15 @@
         font-style: normal;
         text-decoration: underline;
         margin: 60 0 40 0;
+
+        @include adaptive {
+            font-size: 12px;
+            line-height: calc(14/12);
+        }
+
+        @include tablet {
+            margin: auto;
+        }
 
         
     }
@@ -196,6 +235,8 @@
         @include adaptive {
             display: flex;
             align-items: center;
+            font-size: 12px;
+            line-height: calc(14/12);
         }
     }
     
