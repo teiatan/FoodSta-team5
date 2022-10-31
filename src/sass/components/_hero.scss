@@ -1,0 +1,86 @@
+.hero {
+  box-sizing: border-box;
+
+  @media screen and (max-width: 1279px) {
+    margin-top: 60px;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 0;
+  }
+
+  &__container {
+    position: relative;
+
+    @media screen and (min-width: 1280px) {
+      padding-top: 159px;
+    }
+  }
+
+  &__wrapper {
+    @media screen and (min-width: 1280px) {
+      width: 502px;
+      margin-left: 0;
+    }
+  }
+
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 28px;
+    width: 280px;
+    text-align: left;
+
+    @media screen and(min-width: 768px) {
+      font-size: 42px;
+      line-height: 1.2;
+      margin-bottom: 44px;
+      width: 500px;
+    }
+
+    @media screen and(min-width: 1280px) {
+      font-size: 48px;
+      margin-bottom: 28px;
+    }
+
+
+  }
+
+  &__text {
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 266px;
+    max-width: 440px;
+    text-align: left;
+
+    @media screen and(min-width: 768px) {
+    font-size: 16px;
+    margin-bottom: 40px;
+    }
+
+    @media screen and(min-width: 768px) and(max-width: 1279px) {
+      width: 336px;
+    }
+
+    @media screen and(min-width: 1280px) {
+      max-width: 502px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.order-button {
+  background: $accent-color;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: #B5FF00;
+  }
+}
