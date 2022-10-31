@@ -7,7 +7,11 @@
         box-sizing: border-box;
         padding: 60px 20px 0 20px;
         display: flex;
-        min-height: 259px;
+        
+
+        @include mobile {
+            min-height: 259px;
+        }
 
 
         @include adaptive {
@@ -17,6 +21,16 @@
         @include desktop {
             padding: 60px 16px 0 16px;
         }
+    }
+
+    &__second-container {
+        
+        @include desktop {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
     }
 
     &__phone-apple-img {
@@ -48,14 +62,22 @@
 
     & .subscribe-form {
 
+        @include tablet {
+            margin-top: 35px;
+        }
+
         &__container {
             @include mobile {
                 flex-direction: column;
                 align-items: flex-end;
             }
+            @include adaptive {
+                margin-top: 12px;
+            }
         }
 
         &__input {
+            margin-right: 13px;
 
             @include mobile {
                 margin: 12px 0 20px 0;
@@ -67,9 +89,19 @@
         }
         
         &__policy-start {
-            font-size: 10px;
-            line-height: 1,2;
+            
             margin-top: 20px;
+            font-size: 12px;
+            line-height: calc(14/12);
+
+            @include mobile {
+                font-size: 10px;
+                line-height: 1,2;  
+            }
+
+            @include adaptive {
+                margin-top: 12px;
+            }
         }
 
         &__policy-end {
@@ -82,25 +114,57 @@
 
 .footer__logo {
     margin-right: 61px;
+
+    @include tablet {
+        margin-right: 114px;
+    }
+
+    @include tablet {
+        margin-right: 148px;
+    }
 }
 
 .footer__nav {
+    @include adaptive {
+        display: flex;
+    }
+
     & .nav__list {
         display: flex;
-        flex-direction: column;
+        
         padding: 0;
+
+        @include mobile {
+            flex-direction: column;
+        }
     }
 
     & .nav__item {
-        margin-bottom: 20px;
+        @include mobile {margin-bottom: 20px;}
 
     }
 }
 
 
 .address {
+
+    @include adaptive {
+        display: flex;
+        justify-content: space-between
+    }
+
     @extend %section;
     min-height: 144px;
+
+    @include tablet {
+        min-height: 55px;
+    }
+
+    @include tablet {
+        min-height: 41px;
+    }
+
+    
 
     &__list {
         padding: 0;
@@ -111,6 +175,14 @@
         font-style: normal;
         text-decoration: underline;
         margin: 60 0 40 0;
+
+        
+    }
+
+    &__item {
+        @include adaptive {
+            margin-right: 20px;
+        }
     }
 
     &__link {
@@ -120,6 +192,11 @@
     &__sig {
         font-style: normal;
         text-align: center;
+
+        @include adaptive {
+            display: flex;
+            align-items: center;
+        }
     }
     
 }
