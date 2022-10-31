@@ -1,0 +1,51 @@
+.footer {
+    //@extend %section;
+    
+
+    &__first-container {
+        position: relative;
+        box-sizing: border-box;
+        padding: 60px 20px 0 20px;
+        display: flex;
+        min-height: 259px;
+
+
+        @include adaptive {
+            padding: 60px 32px 0 32px;
+        }
+
+        @include desktop {
+            padding: 60px 16px 0 16px;
+        }
+    }
+
+    &__phone-apple-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    &__phone-orange-img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+
+.footer__logo {
+    margin-right: 61px;
+}
+
+.footer__nav {
+    & .nav__list {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    & .nav__item {
+        margin-bottom: 20px;
+
+    }
+}
