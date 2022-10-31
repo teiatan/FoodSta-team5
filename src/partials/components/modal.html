@@ -1,0 +1,40 @@
+<!-- test button -->
+<!-- <button class="open" type="button" data-modal-open>Open</button> -->
+<!-- Modal -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="close-button" data-modal-close>
+      <svg width="24px" height="24px">
+        <use href="./images/sprite.svg#cross"></use>
+      </svg>
+    </button>
+    <p class="modal__header">Order Form</p>
+    <form class="modal-form">
+      <label class="modal-form__field"
+        ><input
+          class="modal-form__user-data"
+          type="text"
+          name="user_name"
+          placeholder="Your name"
+        /><span class="modal-form__field-title">Name</span></label
+      >
+      <label class="modal-form__field"
+        ><input
+          class="modal-form__user-data"
+          type="tel"
+          name="phone_number"
+          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+        /><span class="modal-form__field-title">Phone number</span></label
+      >
+      <label class="modal-form__field"
+        ><input
+          class="modal-form__user-data"
+          type="email"
+          name="user_mail"
+          placeholder="example@gmail.com"
+        /><span class="modal-form__field-title">E-mail</span></label
+      >
+      <button class="modal-form__button" type="submit">Send</button>
+    </form>
+  </div>
+</div>
