@@ -1,5 +1,5 @@
 .footer {
-    //@extend %section;
+
     @include adaptive {
         position: relative;
     }
@@ -60,10 +60,9 @@
         display: none;
         @include tablet {
             display: block;
-            position: fixed;
+            position: absolute;
             bottom: 0;
             z-index: -1;
-            width: 768px;
         }
     }
     
@@ -71,10 +70,12 @@
         display: none;
         @include desktop {
             display: block;
-            position: fixed;
+            position: absolute;
             bottom: 0;
+            right: 0;
             z-index: -1;
-            width: 1280px;
+            
+
         }
     }
 
