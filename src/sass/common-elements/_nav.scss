@@ -1,32 +1,14 @@
-.container-header {
-padding-top: 15px;
-padding-bottom: 15px;
-}
+.nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #2C2C2C;
+    margin-right: 18px;
 
-.nav{
-display: flex;
-justify-content: end;
-margin-left: auto;
-
-}
-
-.nav__list{
-display: flex;
-align-items: center;
-
-}
-
-.nav__link:nth-child(-n + 4) {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.14;
-color: #2C2C2C;
-margin-right: 18px;
-
-&:hover{
-text-decoration-line: underline;
-color: #BBF330;
-}
+    &:hover, &:focus, &:active{
+        text-decoration-line: underline;
+        color: #BBF330;
+    }
 }
