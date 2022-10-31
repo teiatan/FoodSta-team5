@@ -43,8 +43,7 @@ img {
 }
  
 .main-container {
-    padding-left: 20px;
-    padding-right: 20px; 
+    padding: 0; 
     margin: auto;
 
     @include adaptive {
