@@ -101,6 +101,10 @@
     &::placeholder {
             color: $input-placeholder-color;
     }
+
+    .modal-form__field:focus-within>& {
+        border-color: $accent-color;
+    }
 }
 
 .modal-form__button {
