@@ -1,0 +1,136 @@
+
+
+.customers__section {
+   
+    background-image: url(/src/images/customers-bg-phone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.customers__container {
+    min-width: 100%;
+    min-height: 769px;
+    padding: 0px 20px 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    @media screen and (max-width: 467px) {
+        width: 100%;
+    }
+}
+
+.customers__title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+
+color: #2C2C2C;
+
+width: 100%;
+
+margin-bottom: 20px;
+}
+
+.customers__text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: inline-block;
+
+color: #2C2C2C;
+
+width: 100%;
+
+margin-bottom: 32px;
+}
+
+.customers__item {
+    width: 264px;
+    height: 231px;
+    background-color: #FEFEFE;
+    border-radius: 0px 30px 30px 30px;
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.customers__item:first-child {
+        margin-bottom: 24px;
+}
+
+.customers__copyright {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px; 
+margin: 0px;
+// width: 250px;
+
+color: #2C2C2C;
+}
+
+.customers__wrapper {
+    border-right: 0.854167px solid #7EB101;
+    display: flex;
+    width: 162px;
+    gap: 16px;
+
+}
+
+.customers__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    
+    color: #2C2C2C;
+}
+
+.customers__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+color: #2C2C2C;
+}
+
+.customers__wraper-name {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.customer__icon-wrapper {
+    display: flex;
+    justify-content: wrap;
+    gap: 4px;
+}
+
+.customer__element {
+    width: 20px;
+    height: 20px;
+}
+
+.customer__icon {
+    width: 20px;
+    height: 20px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
