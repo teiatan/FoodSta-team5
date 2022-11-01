@@ -1,7 +1,21 @@
 .order-button {
   @extend %button;
-  background: $accent-color;
   width: 98px;
   height: 32px;
-  border: none;
 }
+.order-button--yellow {
+  background-color:$accent-color ;
+  border: none;
+  &:hover {
+    background-color: $accent-color-dark;
+  }
+}
+.order-button--white {
+  border: 1px $accent-color-dark solid;
+  &:hover {
+    border: 1px $accent-color-darken-than-dark solid;
+  }
+}
+
+
+
