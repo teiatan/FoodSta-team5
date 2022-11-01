@@ -11,7 +11,7 @@
   }
   
 @mixin tablet () {
-    @media screen and (min-width: $mobile) and (max-width: $tablet) {
+    @media screen and (min-width: $tablet) and (max-width: $desktop)  {
       @content;
     }
   }
@@ -23,7 +23,7 @@
   }
 
 @mixin adaptive () {
-    @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $tablet)  {
     @content;
-    }
+  }
 }
