@@ -1,0 +1,15 @@
+.footer-container {
+    background-image: url(/src/images/footer-bg-down-phone.jpg), url(/src/images/footer-bg-orange-phone.jpg), url(/src/images/footer-bg-apple-phone.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 50% bottom, top right, 0 132px;
+    @media screen and (min-width:768px) {
+        background-image: url(/src/images/footer-bg-tablet.jpg);
+        background-size:cover ;
+        background-position: right bottom;
+    }
+    @media screen and (min-width:1280px) {
+        background-image: url(/src/images/footer-bg-desc.jpg);
+        background-size:cover ;
+        background-position: 50% bottom;
+    }
+}
