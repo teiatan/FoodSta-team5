@@ -1,4 +1,5 @@
 .footer-container {
+    @extend %section-true;
     background-image: url(/src/images/footer-bg-down-phone.jpg), url(/src/images/footer-bg-orange-phone.jpg), url(/src/images/footer-bg-apple-phone.jpg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 50% bottom, top right, 0 132px;
@@ -13,3 +14,4 @@
         background-position: 50% bottom;
     }
 }
+
