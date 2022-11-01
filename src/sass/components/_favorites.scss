@@ -46,7 +46,7 @@
   align-items: center;
 
   @media screen and (min-width: 768px) {
-    gap: 32px;
+    // gap: 32px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,12 +63,16 @@
       width: 336px;
       height: 338px;
       border: 14px solid #ffe550;
+      flex-basis: calc((100% - 5 * 32px) / 6);
+      border-radius: 50%;
     }
 
     @media screen and (min-width: 1280px) {
       width: 395px;
       height: 397px;
       border: 16px solid #ffe550;
+      flex-basis: calc((100% - 5 * 32px) / 6);
+      border-radius: 50%;
     }
 
     &--extra {
