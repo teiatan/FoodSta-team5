@@ -4,11 +4,16 @@
   height: 32px;
 }
 .order-button--yellow {
-  @extend %order-button;
   background-color:$accent-color ;
   border: none;
   &:hover {
     background-color: $accent-color-dark;
+  }
+}
+.order-button--white {
+  border: 1px $accent-color-dark solid;
+  &:hover {
+    border: 1px $accent-color-darken-than-dark solid;
   }
 }
 
