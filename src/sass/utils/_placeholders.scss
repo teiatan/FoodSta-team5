@@ -12,8 +12,12 @@
         padding-right: 16px;
         }
 }
-%section {
-    padding-;
+%section-true {
+    padding: 60px 0 60px 0;
+    @include tablet {
+        padding: 100px 0 100px 0;
+    }
+    
 }
 %title {
     font-weight: 700;
