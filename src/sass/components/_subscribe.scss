@@ -68,3 +68,15 @@
     margin-bottom: 24px;
   }
 }
+
+.subscribe .subscribe-form__button {
+    border: none;
+    background: #BBF330;
+    &:hover, &:focus {
+        background: #B5FF00;
+    }
+  }
+
+  .subscribe .subscribe-form__input {
+    width: 395px;
+  }
