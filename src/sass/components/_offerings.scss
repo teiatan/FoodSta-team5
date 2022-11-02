@@ -168,7 +168,8 @@
   line-height: 1.5;
   transition: border-color $animation;
 
-  &:hover {
+  &:hover
+  &:focus {
     border-color: #597d00;
   }
 }
