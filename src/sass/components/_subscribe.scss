@@ -20,7 +20,8 @@
 }
 
 .subscribe__container {
-  min-width: 320px;
+  min-width: 280px;
+  max-width: 480px;
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
@@ -30,14 +31,6 @@
     max-width: 1280px;
   }
 }
-@media screen and (min-width: 1280px) {
-  .subscribe__container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-}
-
 .subscribe__image {
   display: flex;
   justify-content: center;
