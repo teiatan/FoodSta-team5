@@ -16,6 +16,7 @@
     padding-bottom: 64px;
     padding-left: 17px;
     padding-right: 16px;
+    padding-top: 46px;
   }
 }
 
@@ -29,6 +30,9 @@
 
     @include desktop {
     max-width: 1280px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }
 .subscribe__image {
@@ -44,7 +48,7 @@
   }
 
     @include desktop {
-    
+      min-width: 608px;
   }
 }
 .subscribe__title {
@@ -80,3 +84,5 @@
   .subscribe .subscribe-form__input {
     width: 395px;
   }
+
+  
