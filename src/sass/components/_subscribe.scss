@@ -84,6 +84,10 @@
   .subscribe .subscribe-form__input {
     width: 395px;
 
+    @include mobile {
+      width: 100%;
+    }
+
     @include desktop {
       margin-right: 32px;
     }
