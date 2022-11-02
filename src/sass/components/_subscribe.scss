@@ -5,13 +5,13 @@
   padding-left: 20px;
   padding-right: 20px;
 
-  @media screen and (min-width: 768px) {
+  @include adaptive {
     margin-top: -74px;
     padding-bottom: 100px;
     padding-left: 32px;
     padding-right: 32px;
   }
-  @media screen and (min-width: 1280px) {
+    @include desktop {
     margin-top: -66px;
     padding-bottom: 64px;
     padding-left: 17px;
@@ -23,11 +23,11 @@
   min-width: 280px;
   max-width: 480px;
 
-  @media screen and (min-width: 768px) {
+  @include adaptive {
     max-width: 768px;
   }
 
-  @media screen and (min-width: 1280px) {
+    @include desktop {
     max-width: 1280px;
   }
 }
@@ -37,14 +37,14 @@
   margin: 0 auto 17px;
   // margin-bottom: 17px;
 
-  @media screen and (min-width: 768px) {
+  @include adaptive {
     justify-content: flex-end;
     margin-bottom: 20px;
     // padding: 0;
   }
 
-  @media screen and (min-width: 1280px) {
-    flex-direction: row-reverse;
+    @include desktop {
+    
   }
 }
 .subscribe__title {
@@ -53,7 +53,7 @@
   line-height: 120%;
   margin-bottom: 20px;
 
-  @media screen and (min-width: 768px) {
+  @include adaptive {
     font-size: 42px;
     line-height: 1, 2;
   }
@@ -62,7 +62,7 @@
   line-height: 1, 17;
   margin-bottom: 40px;
 
-  @media screen and (min-width: 768px) {
+  @include adaptive {
     font-size: 16px;
     line-height: 1, 5;
     margin-bottom: 24px;
