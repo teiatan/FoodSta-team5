@@ -16,7 +16,7 @@
     padding-bottom: 64px;
     padding-left: 17px;
     padding-right: 16px;
-    padding-top: 46px;
+    //padding-top: 46px;
   }
 }
 
@@ -83,6 +83,14 @@
 
   .subscribe .subscribe-form__input {
     width: 395px;
+
+    @include desktop {
+      margin-right: 32px;
+    }
+
+    @include tablet {
+      margin-right: 22px;
+    }
   }
 
   
