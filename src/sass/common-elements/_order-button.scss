@@ -2,16 +2,22 @@
   @extend %button;
   width: 98px;
   height: 32px;
-}
-.order-button--yellow {
-  background-color:$accent-color ;
+  background-color:$accent-color;
   border: none;
+  transition: background-color $animation;
   &:hover {
     background-color: #B5FF00;
   }
 }
+
 .order-button--white {
+  @extend %button;
+  background-color: $picture-background-color;
   border: 1px $accent-color-dark solid;
+  width: 106px;
+  height: 40px;
+  margin-right: 24px;
+  transition: border-color $animation;
   &:hover {
     border: 1px $accent-color-darken-than-dark solid;
   }
