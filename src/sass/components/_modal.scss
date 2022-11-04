@@ -6,7 +6,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding-top: 60px;
+    //padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: $modal-overlay-color;
     opacity: 1;
     // transition: opacity $cubic-function,
@@ -28,6 +31,7 @@
     // width: 100%;
     height: 450px;
     padding: 32px 20px;
+    
 
     background-color: $second-background-color;
     border-radius: 30px;
