@@ -1,11 +1,12 @@
 .offerings {
   @extend %section;
   @extend %section-true;
+  position: relative;
   box-sizing: border-box;
-  background-size: cover;
+  // background-size: cover;
   padding-top: 41px;
   padding-bottom: 60px;
-  background-image: url(../images/offerings-bg-phone.jpg);
+  // background-image: url(../images/offerings-bg-phone.jpg);
  
 
   @media screen and (min-width: 480px) {
@@ -15,7 +16,7 @@
   @media screen and (min-width: 768px) {
     padding-top: 150px;
     padding-bottom: 100px;
-    background-image: url(../images/offerings-bg-tablet.jpg);
+    // background-image: url(../images/offerings-bg-tablet.jpg);
     // width: 768px;
   }
 
@@ -23,7 +24,61 @@
     padding-top: 177px;
     padding-bottom: 43px;
     // width: 1280px;
-    background-image: url(../images/Offerings-bg-desc.jpg);
+    // background-image: url(../images/Offerings-bg-desc.jpg);
+  }
+}
+.offerings__bg-phone {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  @media screen and (min-width:417px) {
+      display: none;
+  }
+}
+.offerings__bg-480 {
+  position: absolute;
+  display: none;
+  z-index: -2;
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  @media screen and (min-width:417px)  {
+      display: block;
+  }
+  @media screen and (min-width:768px)  {
+      display: none;
+  }
+}
+.offerings__bg-tablet {
+  position: absolute;
+  display: none;
+  z-index: -2;
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  @media screen and (min-width:768px)  {
+      display: block;
+  }
+  @media screen and (min-width:1280px)  {
+      display: none;
+  }
+}
+.offerings__bg-desk {
+  position: absolute;
+  display: none;
+  z-index: -2;
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  
+  @media screen and (min-width:1280px)  {
+      display: block;
   }
 }
 
