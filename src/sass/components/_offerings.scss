@@ -1,7 +1,7 @@
 .offerings {
+  @extend %section;
   @extend %section-true;
   box-sizing: border-box;
-  @extend %section;
   background-size: cover;
   padding-top: 41px;
   padding-bottom: 60px;
