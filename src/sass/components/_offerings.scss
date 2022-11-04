@@ -1,10 +1,12 @@
 .offerings {
+  @extend %section-true;
   box-sizing: border-box;
   @extend %section;
   background-size: cover;
   padding-top: 41px;
   padding-bottom: 60px;
   background-image: url(../images/offerings-bg-phone.jpg);
+ 
 
   @media screen and (min-width: 480px) {
     // width: 480px;

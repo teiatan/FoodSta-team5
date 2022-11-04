@@ -7,7 +7,9 @@
 .favorites-container {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fefefe;}
+  background-color: #fefefe;
+  @extend %section-true;
+}
 
   .favorites-container__title {
     // margin-bottom: 20px;

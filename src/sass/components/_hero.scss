@@ -1,5 +1,7 @@
 .hero {
   box-sizing: border-box;
+
+  @extend %section-true;  
   @extend %section;
 
   @media screen and (max-width: 1279px) {

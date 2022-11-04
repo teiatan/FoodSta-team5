@@ -1,4 +1,5 @@
 .footer {
+    @extend %section-true;
 
     @include adaptive {
         position: relative;
