@@ -24,59 +24,114 @@ p {
     padding: 0;
 }
 
+
+.customers__bg-phone {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    @media screen and (min-width:480px) {
+        display: none;
+    }
+}
+.customers__bg-480 {
+    position: absolute;
+    display: none;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    @media screen and (min-width:480px)  {
+        display: block;
+    }
+    @media screen and (min-width:768px)  {
+        display: none;
+    }
+}
+.customers__bg-tablet {
+    position: absolute;
+    display: none;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    @media screen and (min-width:768px)  {
+        display: block;
+    }
+    @media screen and (min-width:1280px)  {
+        display: none;
+    }
+}
+.customers__bg-desk {
+    position: absolute;
+    display: none;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    @media screen and (min-width:1280px)  {
+        display: block;
+    }
+}
+
+
 .customers__section {
     @extend %section-true;
+    position: relative;
+
+}
     /* @media screen and (min-width:468px) and (max-width: 767px) {
         width: 480px;
     }
-    @media screen and (min-width:768px) and (max-width: 1280px) {
-        width: 768px;
-    }
-    @media screen and (min-width:1280px) {
-        width: 1280px;
-    } */
+//     @media screen and (min-width:768px) and (max-width: 1280px) {
+//         width: 768px;
+//     }
+//     @media screen and (min-width:1280px) {
+//         width: 1280px;
+//     } */
     
    
        
-    background-image: url(/src/images/customers-bg-phone.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+//     // background-image: url(/src/images/customers-bg-phone.jpg);
+//     // background-repeat: no-repeat;
+//     // background-position: center;
+//     // background-size: cover;
 
-    // @media (min-device-pixel-ratio: 2),
-    // (min-resolution: 192dpi),
-    // (min-resolution: 2dppx) {
-    //  background-image: url(/src/images/customers-bg-phone@wx.jpg);}
+//     // @media (min-device-pixel-ratio: 2),
+//     // (min-resolution: 192dpi),
+//     // (min-resolution: 2dppx) {
+//     //  background-image: url(/src/images/customers-bg-phone@wx.jpg);}
 
 
-    @media screen and (min-width:468px) and (max-width: 767px) {
+//     @media screen and (min-width:468px) and (max-width: 767px) {
 
-        background-image: url(/src/images/customers-bg-480px.png);
+//         background-image: url(/src/images/customers-bg-480px.png);
 
-        // @media (min-device-pixel-ratio: 2),
-        // (min-resolution: 192dpi),
-        // (min-resolution: 2dppx) {
-        //  background-image: url(/src/images/customers-bg-480px@2x.png);}
-    }
+//         // @media (min-device-pixel-ratio: 2),
+//         // (min-resolution: 192dpi),
+//         // (min-resolution: 2dppx) {
+//         //  background-image: url(/src/images/customers-bg-480px@2x.png);}
+//     }
 
-    @media screen and (min-width:768px) and (max-width: 1280px) {
+//     @media screen and (min-width:768px) and (max-width: 1280px) {
 
-        background-image: url(/src/images/customers-bg-tablet.jpg);
+//         background-image: url(/src/images/customers-bg-tablet.jpg);
 
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-         background-image: url(/src/images/customers-bg-tablet@2x.jpg);}
-    }
-    @media screen and (min-width:1280px) {
+//         @media (min-device-pixel-ratio: 2),
+//         (min-resolution: 192dpi),
+//         (min-resolution: 2dppx) {
+//          background-image: url(/src/images/customers-bg-tablet@2x.jpg);}
+//     }
+//     @media screen and (min-width:1280px) {
 
-        background-image: url(/src/images/customers-bg-desc.jpg);
-        // //   @media (min-device-pixel-ratio: 2),
-// (min-resolution: 192dpi),
-// (min-resolution: 2dppx) {
-// background-image: url(/src/images/customers-bg-desc@2x.jpg);}
-// }
-} }
+//         background-image: url(/src/images/customers-bg-desc.jpg);
+//         // //   @media (min-device-pixel-ratio: 2),
+// // (min-resolution: 192dpi),
+// // (min-resolution: 2dppx) {
+// // background-image: url(/src/images/customers-bg-desc@2x.jpg);}
+// // }
+// } }
 
 
 
