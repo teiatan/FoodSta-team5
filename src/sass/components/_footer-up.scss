@@ -88,7 +88,9 @@
 
     }
 
-
+    & .subscribe-form__input {
+        margin-top: 0;
+    }
 
 }
     
@@ -123,7 +125,7 @@
             flex-direction: row;
         }
     }
-
+    
     & .nav__item:not(:last-child) {
         margin-bottom: 20px;
         @include adaptive {margin-bottom: 0;}
@@ -195,4 +197,8 @@
         }
     }
     
+}
+
+.subscribe-form__text {
+font-weight: 500;
 }

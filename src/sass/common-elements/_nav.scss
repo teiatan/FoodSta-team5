@@ -5,11 +5,18 @@
     font-size: 14px;
     line-height: 1.14;
     color: #2C2C2C;
-    margin-right: 18px;
+    
 
     &:hover, &:focus, &:active{
         text-decoration-line: underline;
         color: #BBF330;
+    }
+}
+
+.nav__item {
+    margin-right: 18px;
+    &:last-child {
+        margin-right: 0;
     }
 }
 
