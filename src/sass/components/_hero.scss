@@ -1,8 +1,8 @@
 .hero {
-  box-sizing: border-box;
-
   @extend %section-true;  
   @extend %section;
+  box-sizing: border-box;
+  position: relative;
 
   @media screen and (max-width: 1279px) {
     margin-top: 60px;
@@ -10,15 +10,16 @@
 
   @include adaptive {
     padding-bottom: 0;
-  }}
-
-  .hero__container {
-    position: relative;
+    padding-top: 60px;
+  }
 
   @include desktop {
-      padding-top: 159px;
-    }
+    padding-top: 159px;
   }
+
+  
+}
+
 
   .hero__wrapper {
     @include desktop {

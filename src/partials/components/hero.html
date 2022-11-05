@@ -1,52 +1,51 @@
-      <section class="hero">
-        <div class="container hero__container" id="home">
-          <div class="hero__wrapper">
-            <h1 class="hero__title main-title">Enjoy Your Favorite Food From&nbsp;Anywhere</h1>
-            <p class="hero__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
-              eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum
-              nulla, ut commodo diam libero vitae erat
-            </p>
-            <include src="./partials/common-elements/order-button.html"></include>
-            <!-- <button class="order-button order-button--yellow" type="button" data-modal-open>Order Now</button> -->
-          </div>
-          <div class="slider">
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <picture>
-                    <source srcset="./images/hero-foto-desc.png 1x, ./images/hero-foto-desc@2x.png 2x" media="(min-width: 1280px)" type="image/jpg" >
-                    <source srcset="./images/hero-tablet.png 1x, ./images/hero-tablet@2x.png 2x" media="(min-width: 768px)" type="image/jpg" >
-                    <img loading="lazy" src="./images/hero-foto-desc.png" alt="Salad-1" >
-                  </picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture>
-                    <source srcset="./images/slider-photo-desc.png 1x, ./images/slider-photo-desc@2x.png 2x" media="(min-width: 1280px)" >
-                    <source srcset="./images/slider-photo-tablet.png 1x, ./images/slider-photo-tablet@2x.png 2x" media="(min-width: 768px)" >
-                    <img loading="lazy" src="./images/slider-photo-desc.png" alt="Salad-2" >
-                  </picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture>
-                    <source srcset="./images/chris-ralston-desc.png 1x, ./images/chris-ralston-desc@2x.png 2x" media="(min-width: 1280px)" >
-                    <source srcset="./images/chris-ralston-tablet.png 1x, ./images/chris-ralston-tablet@2x.png 2x" media="(min-width: 768px)" >
-                    <img loading="lazy" src="./images/chris-ralston-desc.png" alt="Salad-3" >
-                  </picture>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-button-prev">
-              <svg class="swiper-icon">
-                <use href="./images/sprite.svg#arrow-left"></use>
-              </svg>
-            </div>
-            <div class="swiper-button-next">
-              <svg class="swiper-icon">
-                <use href="./images/sprite.svg#arrow-right"></use>
-              </svg>
-            </div>
-          </div>
+<section class="hero" id="home">
+  <div class="hero__wrapper">
+    <h1 class="hero__title main-title">Enjoy Your Favorite Food From&nbsp;Anywhere</h1>
+    <p class="hero__text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+      eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum
+      nulla, ut commodo diam libero vitae erat
+    </p>
+    <include src="./partials/common-elements/order-button.html"></include>
+    <!-- <button class="order-button order-button--yellow" type="button" data-modal-open>Order Now</button> -->
+  </div>
+  <div class="hero__slider slider">
+    <div class="slider__swiper swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <picture>
+            <source srcset="./images/hero-foto-desc.png 1x, ./images/hero-foto-desc@2x.png 2x" media="(min-width: 1280px)" type="image/jpg" >
+            <source srcset="./images/hero-tablet.png 1x, ./images/hero-tablet@2x.png 2x" media="(min-width: 768px)" type="image/jpg" >
+            <img loading="lazy" src="./images/hero-foto-desc.png" alt="Salad-1" >
+          </picture>
         </div>
-      </section>
+        <div class="swiper-slide">
+          <picture>
+            <source srcset="./images/slider-photo-desc.png 1x, ./images/slider-photo-desc@2x.png 2x" media="(min-width: 1280px)" >
+            <source srcset="./images/slider-photo-tablet.png 1x, ./images/slider-photo-tablet@2x.png 2x" media="(min-width: 768px)" >
+            <img loading="lazy" src="./images/slider-photo-desc.png" alt="Salad-2" >
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source srcset="./images/chris-ralston-desc.png 1x, ./images/chris-ralston-desc@2x.png 2x" media="(min-width: 1280px)" >
+            <source srcset="./images/chris-ralston-tablet.png 1x, ./images/chris-ralston-tablet@2x.png 2x" media="(min-width: 768px)" >
+            <img loading="lazy" src="./images/chris-ralston-desc.png" alt="Salad-3" >
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="swiper__button--prev swiper-button-prev">
+      <svg class="swiper__icon swiper-icon">
+        <use href="./images/sprite.svg#arrow-left"></use>
+      </svg>
+    </div>
+    <div class="swiper__button--next swiper-button-next">
+      <svg class="swiper__icon swiper-icon">
+        <use href="./images/sprite.svg#arrow-right"></use>
+      </svg>
+    </div>
+  </div>
+
+</section>
