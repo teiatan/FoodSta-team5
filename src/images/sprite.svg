@@ -64,35 +64,35 @@
                 d="M31.3 16c0 8.45-6.85 15.3-15.3 15.3s-15.3-6.85-15.3-15.3c0-8.45 6.85-15.3 15.3-15.3s15.3 6.85 15.3 15.3z">
             </path>
         </symbol>
-        <symbol id="customers-480-bg" viewBox="0 0 20 32">
+        <symbol id="customers-480-bg" viewBox="0 0 20 32" preserveAspectRatio="none">
             <path fill="#ffe550" style="fill: var(--color1, #ffe550)"
                 d="M0 0h19.974v32c-5.304-3.075-14.67-3.075-19.974 0v-32z"></path>
         </symbol>
-        <symbol id="offerings-480-bg" viewBox="0 0 15 32">
+        <symbol id="offerings-480-bg" viewBox="0 0 15 32" preserveAspectRatio="none">
             <path fill="#ffe550" style="fill: var(--color1, #ffe550)"
                 d="M0 3.404c3.275-4.539 11.354-4.539 14.629 0v28.596h-14.629v-28.596z"></path>
         </symbol>
-        <symbol id="offerings-desk-bg" viewBox="0 0 50 32">
+        <symbol id="offerings-desk-bg" viewBox="0 0 50 32" preserveAspectRatio="none">
             <path fill="#ffe550" style="fill: var(--color1, #ffe550)"
                 d="M0 6.183c17.961-10.704 39.456 11.675 49.709-6.183v32h-49.709v-25.817z"></path>
         </symbol>
-        <symbol id="customers-desk-bg" viewBox="0 0 63 32">
+        <symbol id="customers-desk-bg" viewBox="0 0 63 32" preserveAspectRatio="none">
             <path fill="#ffe550" style="fill: var(--color1, #ffe550)"
                 d="M0 29.091c22.677-11.646 50.275 17.005 63.308-7.022v-22.069h-63.308v29.091z"></path>
         </symbol>
-        <symbol id="customers-tablet-bg" viewBox="0 0 45 32">
+        <symbol id="customers-tablet-bg" viewBox="0 0 45 32" preserveAspectRatio="none">
             <path fill="#ffe550" style="fill: var(--color1, #ffe550)"
                 d="M0 30.417c16.182-6.339 35.876 9.255 45.176-3.822v-26.595h-45.176v30.417z"></path>
         </symbol>
-        <symbol id="offerings-tablet-bg" viewBox="0 0 22 32">
+        <symbol id="offerings-tablet-bg" viewBox="0 0 22 32" preserveAspectRatio="none">
             <path fill="#ffe550" style="fill: var(--color1, #ffe550)"
                 d="M0 3.705c9.358-5.319 16.83 5.909 21.558-3.705v32h-21.558v-28.295z"></path>
         </symbol>
-        <symbol id="offerings-phone-bg" viewBox="0 0 10 32">
+        <symbol id="offerings-phone-bg" viewBox="0 0 10 32" preserveAspectRatio="none">
             <path fill="#ffe550" style="fill: var(--color1, #ffe550)"
                 d="M0 1.829c2.59-2.438 7.163-2.438 9.752 0v30.171h-9.752v-30.171z"></path>
         </symbol>
-        <symbol id="customers-phone-bg" viewBox="0 0 13 32">
+        <symbol id="customers-phone-bg" viewBox="0 0 13 32" preserveAspectRatio="none">
             <path fill="#ffe550" style="fill: var(--color1, #ffe550)"
                 d="M0 0h13.316v32c-3.536-1.66-9.78-1.66-13.316 0v-32z"></path>
         </symbol>
