@@ -1,4 +1,4 @@
-.offerings {
+.offerings__container {
   @extend %section;
   @extend %section-true;
   box-sizing: border-box;
@@ -27,7 +27,7 @@
   }
 }
 
-.offerings__container {
+.offerings {
   @media screen and (min-width: 1280px) {
     display: flex;
     align-items: center;
