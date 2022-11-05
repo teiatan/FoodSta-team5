@@ -9,10 +9,13 @@
     @include desktop {
     margin-top: -66px;
     padding-bottom: 64px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }
 
-/* .subscribe__container {
+.subscribe__description-box {
   min-width: 280px;
   max-width: 480px;
 
@@ -21,12 +24,13 @@
   }
 
     @include desktop {
-    max-width: 1280px;
+      padding-top: 50px;
+    /* max-width: 1280px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-between; */
   }
-} */
+}
 .subscribe__image {
   display: flex;
   justify-content: center;
