@@ -22,6 +22,25 @@
     border: 1px $accent-color-darken-than-dark solid;
   }
 }
+@keyframes glowing {
+  0% {
+    background-color: #2BA805;
+    box-shadow: 0 0 5px #2BA805;
+  }
 
+  50% {
+    background-color: #49E819;
+    box-shadow: 0 0 20px #49E819;
+  }
+
+  100% {
+    background-color: #B5FF00;
+    box-shadow: 0 0 5px #B5FF00;
+  }
+}
+
+.order-button {
+  animation: glowing 1300ms infinite;
+}
 
 
