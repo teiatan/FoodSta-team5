@@ -54,7 +54,7 @@
         
       @media screen and (min-width: 768px) {
         display: flex;
-        margin-right: 18px;
+        //margin-right: 18px;
       }
     }
 
@@ -90,6 +90,7 @@ margin-right: 18px;
   
     @media screen and (min-width: 768px) {
       display: block;
+      margin-left: 18px;
       /* background: $accent-color;
       border-radius: 30px;
       width: 98px;

@@ -21,7 +21,15 @@
             <form class="subscribe-form footer__subscribe-form">
                 <p class="subscribe-form__text">Subscribe</p>
                 <div class="subscribe-form__container">
-                    <input type="email" name="mail" placeholder="Enter your email" reqired id="mail" class="subscribe-form__input">
+                    <input 
+                    type="email" 
+                    name="mail" 
+                    placeholder="Enter your email" 
+                    reqired 
+                    id="mail" 
+                    class="subscribe-form__input" 
+                    title="Not a valid email address (example@email.com)"
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
                     <button type="submit" class="subscribe-form__button">Subscribe</button>
                 </div>
                 <p class="subscribe-form__policy-start">By subscribing you agree to with our 
