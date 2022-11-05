@@ -1,14 +1,25 @@
 .offerings__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+}
+
+.offerings {
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    align-items: center;
+  }
+}
+.offerings {
   @extend %section;
   @extend %section-true;
-  position: relative;
   box-sizing: border-box;
   // background-size: cover;
   padding-top: 41px;
   padding-bottom: 60px;
   // background-image: url(../images/offerings-bg-phone.jpg);
  
-
   @media screen and (min-width: 480px) {
     // width: 480px;
   }
@@ -79,13 +90,6 @@
   
   @media screen and (min-width:1280px)  {
       display: block;
-  }
-}
-
-.offerings {
-  @media screen and (min-width: 1280px) {
-    display: flex;
-    align-items: center;
   }
 }
 

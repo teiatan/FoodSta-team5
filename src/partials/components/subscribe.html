@@ -1,58 +1,57 @@
-<!-- <include src="../common-elements/subscribe-form.html"></include> -->
-<section id="subscribe" class="subscribe">
-  <div class="subscribe__container">
-    <div loading="lazy" class="subscribe__image img">
-      <picture>
-        <source
-          srcset="
-            /src/images/banan-desc.png 1x,
-            /src/images/banan-desc@2x.png 2x
-          "
-          media="(min-width: 1280px)"
-        >
 
-        <source
-          srcset="
-            /src/images/banan-tablet.png    1x,
-            /src/images/banan-tablet@2x.png 2x
-          "
-          media="(min-width: 768px)"
-        >
-        
-        <source
-          srcset="
-            /src/images/banan-phone.png    1x,
-            /src/images/banan-phone@2x.png 2x
-          "
-          media="(max-width: 767px)"
-        >
-        
-        
-        <img  loading="lazy" src="/src/images/banan-desc.png" alt="Banana" >
-      </picture>
-    </div>
-    <div class="sub_cont">
-      <h2 class="subscribe__title">Subscribe To Get Special Offers</h2>
-      <p class="subscribe__text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique.
-      </p>
-      <form class="subscribe-form">
-        <div class="subscribe-form__container">
-          <input
-            type="email"
-            name="mail"
-            placeholder="Enter your email"
-            required
-            class="subscribe-form__input"
-            title="Not a valid email address (example@email.com)"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          />
-          <button type="submit" class="subscribe-form__button">
-            Subscribe
-          </button>
-        </div>
-      </form>
-    </div>
+<section id="subscribe" class="subscribe">
+  
+  <div class="subscribe__image img">
+    <picture>
+      <source
+        srcset="
+          /src/images/banan-desc.png 1x,
+          /src/images/banan-desc@2x.png 2x
+        "
+        media="(min-width: 1280px)"
+      >
+
+      <source
+        srcset="
+          /src/images/banan-tablet.png    1x,
+          /src/images/banan-tablet@2x.png 2x
+        "
+        media="(min-width: 768px)"
+      >
+      
+      <source
+        srcset="
+          /src/images/banan-phone.png    1x,
+          /src/images/banan-phone@2x.png 2x
+        "
+        media="(max-width: 767px)"
+      >
+
+      <img  loading="lazy" src="/src/images/banan-desc.png" alt="Banana" >
+    </picture>
   </div>
+  <div class="sub_cont">
+    <h2 class="subscribe__title">Subscribe To Get Special Offers</h2>
+    <p class="subscribe__text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+      varius enim in eros elementum tristique.
+    </p>
+    <form class="subscribe-form">
+      <div class="subscribe-form__container">
+        <input
+          type="email"
+          name="mail"
+          placeholder="Enter your email"
+          required
+          class="subscribe-form__input"
+          title="Not a valid email address (example@email.com)"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        />
+        <button type="submit" class="subscribe-form__button">
+          Subscribe
+        </button>
+      </div>
+    </form>
+  </div>
+  
 </section>
