@@ -1,7 +1,8 @@
 const offeringsBtn = document.querySelector(".offerings [data-modal-open]");
 //offeringsBtn.classList.add(`order-button--white`);
 offeringsBtn.classList.replace("order-button", "order-button--white");
-
+const headerBtn = document.querySelector(".header [data-modal-open]");
+headerBtn.classList.add(`order-button--animate`);
 
 
 // When the user scrolls down 20px from the top of the document, show the button
