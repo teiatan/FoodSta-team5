@@ -27,25 +27,23 @@
 
     <link rel="stylesheet" href="./sass/index.scss" >
   </head>
-  <body>
-    <div class="main-container">
-      <include src="./partials/components/header.html"></include>
+  <body id="top">
+    
+    <include src="./partials/components/header.html"></include>
 
-      <main>
-        <include src="./partials/components/hero.html"></include>
-        <include src="./partials/components/offerings.html"></include>
-        <include src="./partials/components/favorites.html"></include>
-        <include src="./partials/components/customers.html"></include>
-        <include src="./partials/components/subscribe.html"></include>
-      </main>
+    <main>
+      <include src="./partials/components/hero.html"></include>
+      <include src="./partials/components/offerings.html"></include>
+      <include src="./partials/components/favorites.html"></include>
+      <include src="./partials/components/customers.html"></include>
+      <include src="./partials/components/subscribe.html"></include>
+    </main>
 
-      <div class="footer-container">
-        <include src="./partials/components/footer-up.html"></include>
-        <include src="./partials/components/footer-down.html"></include>
-      </div>
+    <include src="./partials/components/footer.html"></include>
 
-      <include src="./partials/components/modal.html"></include>
-    </div>
+    <include src="./partials/components/modal.html"></include>
+    
+    <a href="#top" onclick="topFunction()" id="myBtn" title="Go to top">Go to top</a>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="./js/slider.js"></script>

@@ -1,6 +1,5 @@
-<!-- <include src="../common-elements/order-button.html"></include> -->
-<section class="offerings" id="offerings">
-    <div class="container offerings__container">
+<div class="offerings__container" >
+    <section class="offerings" id="offerings">
         <div class="offerings__image">
             <picture>
                 <source srcset="./images/apple-desktop.png 1x, ./images/apple-desktop@2x.png 2x"
@@ -15,17 +14,17 @@
             <p class="offerings__subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                 varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-                ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
             </p>
 
-            <ul class="offerings__list">
+            <ul id="more" class="offerings__list">
                 <li class="offerings__item">
                     <div class="offerings__i">
                         <svg class="offerings__icon">
                             <use xlink:href="/src/images/sprite.svg#rocket"></use>
                         </svg>
                     </div>
-                    <p class="offerings__article">Fastest Delivery</p>
+                    <h3 class="offerings__article">Fastest Delivery</h3>
                     <p class="offerings__description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                         varius enim in eros.
@@ -37,7 +36,7 @@
                             <use xlink:href="/src/images/sprite.svg#touch"></use>
                         </svg>
                     </div>
-                    <p class="offerings__article">Easy to order</p>
+                    <h3 class="offerings__article">Easy to order</h3>
                     <p class="offerings__description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                         varius enim in eros.
@@ -45,14 +44,25 @@
                 </li>
             </ul>
             <div class="offerings__order">
-                
-                <!-- <button class="offerings__button order-button--white" type="button" data-modal-open>Order Now</button> -->
                 <include src="./partials/common-elements/order-button.html"></include>
-                <p class="offerings__text">Read More</p>
+                <button id="btn" type="button" class="offerings__text" >Read More</button>
                 <svg class="offerings__arrow">
                     <use xlink:href="/src/images/sprite.svg#arrow"></use>
                 </svg>
             </div>
         </div>
-    </div>
-</section>
+        <svg class="offerings__bg-phone">
+            <use href="/src/images/sprite.svg#offerings-phone-bg"></use>
+        </svg>
+        <svg class="offerings__bg-480">
+            <use href="/src/images/sprite.svg#offerings-480-bg"></use>
+        </svg>
+        <svg class="offerings__bg-tablet">
+            <use href="/src/images/sprite.svg#offerings-tablet-bg"></use>
+        </svg>
+        <svg class="offerings__bg-desk">
+            <use href="/src/images/sprite.svg#offerings-desk-bg"></use>
+        </svg>
+    </section>
+    
+</div>

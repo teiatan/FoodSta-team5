@@ -1,18 +1,22 @@
 .slider {
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
-
   position: absolute;
   top: 0;
   right: 0;
   user-select: none;
+  
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  
 
   @media screen and (min-width: 768px) {
     width: 336px;
     height: 320px;
     right: 32px;
-    top: 89px;
+    //top: 89px;
+    //bottom: -76px;
+    top: 149px;
   }
 
   @media screen and (min-width: 1280px) {

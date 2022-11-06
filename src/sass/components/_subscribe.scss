@@ -2,26 +2,20 @@
   @extend %section-true;
   margin-top: -50px;
   padding-top: 0;
-  padding-bottom: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
 
   @include adaptive {
     margin-top: -74px;
-    padding-bottom: 100px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
     @include desktop {
     margin-top: -66px;
     padding-bottom: 64px;
-    padding-left: 17px;
-    padding-right: 16px;
-    //padding-top: 46px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }
 
-.subscribe__container {
+.subscribe__description-box {
   min-width: 280px;
   max-width: 480px;
 
@@ -30,10 +24,11 @@
   }
 
     @include desktop {
-    max-width: 1280px;
+      padding-top: 50px;
+    /* max-width: 1280px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-between; */
   }
 }
 .subscribe__image {
@@ -85,7 +80,7 @@
   .subscribe .subscribe-form__input {
     width: 395px;
 
-    @include mobile {
+    @media screen and (max-width: 768px) {
       width: 100%;
     }
 

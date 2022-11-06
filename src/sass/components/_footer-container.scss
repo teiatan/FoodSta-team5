@@ -1,26 +1,72 @@
-.footer-container {
+.footer__container {
 
-    padding-top: 60px;
-
-    padding-bottom: 60px;
     box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
+    
+    
     background-image: url(/src/images/footer-bg-down-phone.jpg), url(/src/images/footer-bg-orange-phone.jpg), url(/src/images/footer-bg-apple-phone.jpg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 50% bottom, top right, 0 132px;
-    @include adaptive {
-        padding-top: 100px;
-        padding-bottom: 60px;
-        background-image: url(/src/images/footer-bg-tablet.jpg);
-        background-size:cover ;
-        background-position: right bottom;
+    @include tablet {
+        
+        background-image:
+            url(/src/images/footer-bg-tablet-right-orange.png),
+            url(/src/images/footer-bg-tablet-right-dots.jpg),
+            url(/src/images/footer-bg-tablet-right-apple.png),
+            url(/src/images/footer-bg-tablet-left-orange.png);
+
+        background-position: 
+            top right,
+            top right,
+            bottom right,
+            bottom left;
     }
     @include desktop {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        background-image: url(/src/images/footer-bg-desc.jpg);
-        background-size:contain ;
-        background-position: 50% bottom;
+        
+        background-image: 
+            url(/src/images/footer-bg-desc-orange-left.png), 
+            url(/src/images/footer-bg-desc-apple-right.png);
+
+        background-position:
+            left bottom,
+            right bottom;
+
     }
  
 }
 
+.footer {
+    @include tablet {
+        background-image:
+        url(/src/images/footer-bg-tablet-center-apple.png),
+        url(/src/images/footer-bg-tablet-center-banana.png),
+        url(/src/images/footer-bg-tablet-center-1.png),
+        url(/src/images/footer-bg-tablet-center-2.png);
+
+        background-position: 
+        197px bottom,
+        314px bottom,
+        136px bottom,
+        503px bottom;
+
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat
+    }
+
+    @include desktop {
+        background-image: 
+            url(/src/images/footer-bg-desc-center-orange.png),
+            url(/src/images/footer-bg-desc-center-apple.png),
+            url(/src/images/footer-bg-desc-center-banana.png),
+            url(/src/images/footer-bg-desc-center-1.png),
+            url(/src/images/footer-bg-desc-center-2.png),
+            url(/src/images/footer-bg-desc-center-3.png);
+            
+        background-position: 
+            456px bottom,
+            286px bottom,
+            769px bottom,
+            222px bottom,
+            346px bottom,
+            970px bottom;
+            background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    }
+}

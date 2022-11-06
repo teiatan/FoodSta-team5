@@ -1,13 +1,25 @@
+.offerings__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+}
+
+.offerings {
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    align-items: center;
+  }
+}
 .offerings {
   @extend %section;
   @extend %section-true;
   box-sizing: border-box;
-  background-size: cover;
+  // background-size: cover;
   padding-top: 41px;
   padding-bottom: 60px;
-  background-image: url(../images/offerings-bg-phone.jpg);
+  // background-image: url(../images/offerings-bg-phone.jpg);
  
-
   @media screen and (min-width: 480px) {
     // width: 480px;
   }
@@ -15,7 +27,7 @@
   @media screen and (min-width: 768px) {
     padding-top: 150px;
     padding-bottom: 100px;
-    background-image: url(../images/offerings-bg-tablet.jpg);
+    // background-image: url(../images/offerings-bg-tablet.jpg);
     // width: 768px;
   }
 
@@ -23,18 +35,67 @@
     padding-top: 177px;
     padding-bottom: 43px;
     // width: 1280px;
-    background-image: url(../images/Offerings-bg-desc.jpg);
+    // background-image: url(../images/Offerings-bg-desc.jpg);
   }
 }
-
-.offerings__container {
-  @media screen and (min-width: 1280px) {
-    display: flex;
-    align-items: center;
+.offerings__bg-phone {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  @media screen and (min-width:417px) {
+      display: none;
+  }
+}
+.offerings__bg-480 {
+  position: absolute;
+  display: none;
+  z-index: -2;
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  @media screen and (min-width:417px)  {
+      display: block;
+  }
+  @media screen and (min-width:768px)  {
+      display: none;
+  }
+}
+.offerings__bg-tablet {
+  position: absolute;
+  display: none;
+  z-index: -2;
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  @media screen and (min-width:768px)  {
+      display: block;
+  }
+  @media screen and (min-width:1280px)  {
+      display: none;
+  }
+}
+.offerings__bg-desk {
+  position: absolute;
+  display: none;
+  z-index: -2;
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  
+  @media screen and (min-width:1280px)  {
+      display: block;
   }
 }
 
 .offerings__image {
+  display: flex;
+  justify-content: center;
   margin-bottom: 60px;
 
   @media screen and (min-width: 1280px) {
@@ -89,6 +150,7 @@
 
 .offerings__list {
   padding-left: 0;
+  flex-direction: column;
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -196,4 +258,16 @@
   @media screen and (min-width: 1280px) {
       display: none;
     }
+}
+
+
+@media screen and (max-width: 1280px) {
+  #more {
+    display: none;
+  }
+
+  #btn {
+    background: none;
+    border: none;
+  }
 }

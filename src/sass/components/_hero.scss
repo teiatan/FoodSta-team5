@@ -1,24 +1,27 @@
 .hero {
-  box-sizing: border-box;
-
   @extend %section-true;  
   @extend %section;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 72px;
+  //margin-top: 72px;
 
-  @media screen and (max-width: 1279px) {
+  /* @media screen and (max-width: 1279px) {
     margin-top: 60px;
-  }
+  } */
 
   @include adaptive {
     padding-bottom: 0;
-  }}
-
-  .hero__container {
-    position: relative;
+    padding-top: 60px;
+  }
 
   @include desktop {
-      padding-top: 159px;
-    }
+    padding-top: 159px;
   }
+
+  
+}
+
 
   .hero__wrapper {
     @include desktop {
