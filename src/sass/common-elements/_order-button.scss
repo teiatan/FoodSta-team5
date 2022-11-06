@@ -24,6 +24,31 @@
 }
 
 
+
+@keyframes glowing {
+  0% {
+    background-color: $second-background-color;
+    box-shadow: 0 0 5px $second-background-color;
+  }
+
+  50% {
+    background-color: $accent-color;
+    box-shadow: 0 0 20px $accent-color;
+  }
+
+  100% {
+    background-color: $accent-color-dark;
+    box-shadow: 0 0 5px $accent-color-dark;
+  }
+}
+
+.order-button--animate {
+  @extend %order-button;
+  border: none;
+  animation: glowing 1300ms infinite;
+}
+
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -40,6 +65,7 @@
   font-size: 18px; /* Increase font size */
   opacity: 50%;
 }
+
 
 #myBtn:hover {
   background-color: #B5FF00; /* Add a dark-grey background on hover */
