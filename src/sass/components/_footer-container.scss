@@ -9,15 +9,16 @@
     @include tablet {
         
         background-image:
-        url(/src/images/footer-bg-tablet-right-orange.png),
-        url(/src/images/footer-bg-tablet-right-dots.jpg),
-        url(/src/images/footer-bg-tablet-right-apple.png),
-        url(/src/images/footer-bg-tablet-left-orange.png);
+            url(/src/images/footer-bg-tablet-right-orange.png),
+            url(/src/images/footer-bg-tablet-right-dots.jpg),
+            url(/src/images/footer-bg-tablet-right-apple.png),
+            url(/src/images/footer-bg-tablet-left-orange.png);
+
         background-position: 
-        top right,
-        top right,
-        bottom right,
-        bottom left;
+            top right,
+            top right,
+            bottom right,
+            bottom left;
     }
     @include desktop {
         
