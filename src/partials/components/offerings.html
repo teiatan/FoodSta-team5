@@ -1,6 +1,5 @@
-<!-- <include src="../common-elements/order-button.html"></include> -->
-<section class="offerings__container" id="offerings">
-    <div class="offerings">
+<div class="offerings__container" >
+    <section class="offerings" id="offerings">
         <div class="offerings__image">
             <picture>
                 <source srcset="./images/apple-desktop.png 1x, ./images/apple-desktop@2x.png 2x"
@@ -13,13 +12,15 @@
         <div class="offerings__uniq">
             <h2 class="offerings__title">What’s Special About Our Offerings</h2>
             <p class="offerings__subtitle">
+
                 Foodsta will introduce you to new exotic flavors, new flavors of traditional dishes and bright European flavors of burgers that
                 have blown up the whole world with their popularity. All meat and fish dishes are cooked in a special charcoal josper,
                 which gives a unique, special taste to dishes from the oven, ensures uniform roasting, retains a golden crust, juiciness
                 and appetizing appearance, and fully preserves the mineral and vitamin composition.
+
             </p>
 
-            <ul class="offerings__list">
+            <ul id="more" class="offerings__list">
                 <li class="offerings__item">
                     <div class="offerings__i">
                         <svg class="offerings__icon">
@@ -46,11 +47,24 @@
             </ul>
             <div class="offerings__order">
                 <include src="./partials/common-elements/order-button.html"></include>
-                <p class="offerings__text">Read More</p>
+                <button id="btn" type="button" class="offerings__text" >Read More</button>
                 <svg class="offerings__arrow">
                     <use xlink:href="/src/images/sprite.svg#arrow"></use>
                 </svg>
             </div>
         </div>
-    </div>
-</section>
+        <svg class="offerings__bg-phone">
+            <use href="/src/images/sprite.svg#offerings-phone-bg"></use>
+        </svg>
+        <svg class="offerings__bg-480">
+            <use href="/src/images/sprite.svg#offerings-480-bg"></use>
+        </svg>
+        <svg class="offerings__bg-tablet">
+            <use href="/src/images/sprite.svg#offerings-tablet-bg"></use>
+        </svg>
+        <svg class="offerings__bg-desk">
+            <use href="/src/images/sprite.svg#offerings-desk-bg"></use>
+        </svg>
+    </section>
+    
+</div>
