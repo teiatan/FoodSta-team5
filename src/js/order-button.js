@@ -20,3 +20,25 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+
+
+//READ MORE
+const more = document.querySelector(`#more`);
+const moreBtn = document.querySelector(`#btn`);
+
+
+
+const readMore = () => {
+
+    if (more.style.display === "none") {
+        more.style.display="flex";
+        moreBtn.innerHTML="Hide more";
+    } else {
+        more.style.display="none";
+        moreBtn.innerHTML="Read more";
+    }
+};
+
+moreBtn.addEventListener("click", readMore);
