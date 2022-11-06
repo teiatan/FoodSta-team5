@@ -22,24 +22,28 @@
     border: 1px $accent-color-darken-than-dark solid;
   }
 }
+
+
 @keyframes glowing {
   0% {
-    background-color: #2BA805;
-    box-shadow: 0 0 5px #2BA805;
+    background-color: $second-background-color;
+    box-shadow: 0 0 5px $second-background-color;
   }
 
   50% {
-    background-color: #49E819;
-    box-shadow: 0 0 20px #49E819;
+    background-color: $accent-color;
+    box-shadow: 0 0 20px $accent-color;
   }
 
   100% {
-    background-color: #B5FF00;
-    box-shadow: 0 0 5px #B5FF00;
+    background-color: $accent-color-dark;
+    box-shadow: 0 0 5px $accent-color-dark;
   }
 }
 
-.order-button {
+.order-button--animate {
+  @extend %order-button;
+  border: none;
   animation: glowing 1300ms infinite;
 }
 
