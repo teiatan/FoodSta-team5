@@ -216,9 +216,11 @@ font-weight: 500;
 }
 
 input:valid:not(:placeholder-shown) {
+    background-color: #FFFFFF; 
     border: 1px solid #7EB101;
 }
 
 input:invalid:not(:placeholder-shown) {
+    background-color: #FFFFFF;
     border: 1px solid #FF705D;
 }
