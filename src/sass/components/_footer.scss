@@ -214,3 +214,11 @@ font-weight: 500;
         margin-top: 12px;
     }
 }
+
+input:valid:not(:placeholder-shown) {
+    border: 1px solid #7EB101;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border: 1px solid #FF705D;
+}
